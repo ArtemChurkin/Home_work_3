@@ -32,12 +32,13 @@ public class demoqaHomeWork {
         $(".react-datepicker__year-select").selectOption("1989");
         $(".react-datepicker__day.react-datepicker__day--003").click();
         $("#dateOfBirthInput").shouldHave(value("03 Dec 1988"));
+        $("#subjectsInput").setValue("Math").pressEnter();
 
         //$("#subjectsInput").scrollTo().setValue("Physics").pressEnter();
         //$(".subjects-auto-complete__multi-value__label")
                 //.shouldHave(text("Physics"));
-        $(".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi").click();
-        $(".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi").setValue("Ph").pressEnter();
+        //$(".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi").click();
+        //$(".subjects-auto-complete__value-container.subjects-auto-complete__value-container--is-multi").setValue("Ph").pressEnter();
 
         $("label[for='hobbies-checkbox-3']").click();
 
