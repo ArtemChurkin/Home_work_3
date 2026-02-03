@@ -34,6 +34,7 @@ public class DemoqaHomeWorkWithComments {
         $(".react-datepicker__year-select").selectOption("1989");
         $(".react-datepicker__day.react-datepicker__day--003:not(.react-datepicker__day--outside-month)").click();
         $("#dateOfBirthInput").shouldHave(value("03 Dec 1989"));
+        //$("#dateOfBirthInput").shouldHave(value("03 Dec 1989"));
         $("#subjectsInput").setValue("Physics").pressEnter();
         //$("#subjectsInput").scrollTo().setValue("Physics").pressEnter();
         //$(".subjects-auto-complete__multi-value__label")
@@ -53,6 +54,9 @@ public class DemoqaHomeWorkWithComments {
         $(".modal-dialog").should(appear);
         $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
        // $(".table-responsive").shouldHave( text("Artyom"), text("a.churkin@informer.com"), text("89201171319"));
+        //$(".table-responsive").shouldHave( text("Artyom"), text("a.churkin@informer.com"),
+        //                text("Male"), text("8920117131"),text("03 December,1989"),text("Physics")
+        //                ,text("Music"),text("123.png"),text("Svobody 78"),text("Rajasthan Jaipur"));
 
 
         sleep(5000L);
