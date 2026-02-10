@@ -66,9 +66,4 @@ public class DemoqaHomeWork {
 
     }
 
-
-    private WebElementCondition value(String s) {
-
-        return null;
-    }
 }
